@@ -2,6 +2,8 @@
 
 Unit 19 Assignment
 
+Application that connects to blockchain (*Ganache*), sends transactions, and displays balances.
+
 ## Application
 
 ### Example
