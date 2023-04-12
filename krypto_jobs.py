@@ -87,6 +87,7 @@ from crypto_wallet import generate_account, get_balance, send_transaction
 
 # Database of KryptoJobs2Go candidates including their name, digital address, rating and hourly cost per Ether.
 # A single Ether is currently valued at $1900
+# Candidate wallet addresses are using generated wallets from local Ganache instance
 candidate_database = {
     "Lane": [
         "Lane",
