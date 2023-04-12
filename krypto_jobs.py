@@ -119,7 +119,8 @@ candidate_database = {
 }
 
 # A list of the KryptoJobs2Go candidates first names
-people = ["Lane", "Ash", "Jo", "Kendall"]
+# people = ["Lane", "Ash", "Jo", "Kendall"]
+people = list(candidate_database.keys())
 
 
 def get_people():
