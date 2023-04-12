@@ -16,6 +16,9 @@ Ganache account balance:
 Ganache transaction history:
 ![Transaction history in Ganache.](images/ganache-transaction.png)
 
+The five Ganache wallets used for candidates:
+![Ganache wallets](images/ganache-wallets.png)
+
 Streamlit transaction:
 ![Transaction executed in streamlit.](images/streamlist-transaction.png)
 
