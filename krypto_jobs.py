@@ -86,7 +86,7 @@ from crypto_wallet import generate_account, get_balance, send_transaction
 # KryptoJobs2Go Candidate Information
 
 # Database of KryptoJobs2Go candidates including their name, digital address, rating and hourly cost per Ether.
-# A single Ether is currently valued at $1,500
+# A single Ether is currently valued at $1900
 candidate_database = {
     "Lane": [
         "Lane",
