@@ -29,6 +29,7 @@ import streamlit as st
 from dataclasses import dataclass
 from typing import Any, List
 from web3 import Web3
+# import yahoo-finance # Get live price with Yahoo Finance: https://theautomatic.net/2018/07/31/how-to-get-live-stock-prices-with-python/
 
 w3 = Web3(Web3.HTTPProvider("HTTP://127.0.0.1:7545"))
 ################################################################################
@@ -148,6 +149,7 @@ st.text(" \n")
 ################################################################################
 # Streamlit Sidebar Code - Start
 
+st.sidebar.write("ETH = $", 2100)
 st.sidebar.markdown("## Client Account Address and Ethernet Balance in Ether")
 
 ##########################################
