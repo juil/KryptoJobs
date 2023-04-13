@@ -150,7 +150,7 @@ st.text(" \n")
 # Streamlit Sidebar Code - Start
 
 # Display current price of $ETH
-tickers = ['ETH-USD']
+tickers = ['ETH-USD', 'BTC-USD', 'USD-CAD']
 yfinance = YahooFinancials(tickers, country='US')
 for i in range(len(tickers)):
     st.sidebar.write(tickers[i], " = $", 
